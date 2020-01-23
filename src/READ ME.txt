@@ -1,0 +1,102 @@
+
+
+
+
+  *** TC001 ******************
+  Query Parameter autor_name, pagination and sorting
+  1 page 13 elements
+  sort=stars
+  order=desc (descending order)
+
+  1-Verify Status code
+  2-Verify Status Line
+  3-Verify Name
+  4-Verify id
+
+   *** TC002 ******************
+    Query Parameter autor_name, pagination and sorting
+    1 page 13 elements
+    sort=stars
+    order=asc  (ascending order)
+
+    1-Verify Status code
+    2-Verify Status Line
+    3-Verify Name
+    4-Verify id
+
+   *** TC003 ******************
+    Query Parameter autor_name, pagination and sorting
+    2 page 7 elements
+    sort=forks **
+    order=desc (descending order)
+
+    1-Verify Status code
+    2-Verify Status Line
+    3-Verify Name
+    4-Verify id
+
+     *** TC004 ******************
+      Query Parameter autor_name, pagination and sorting
+     2page 7 elements
+      sort=forks **
+      order=asc  (ascending order)
+
+      1-Verify Status code
+      2-Verify Status Line
+      3-Verify Name
+      4-Verify id
+
+    *** TC005 ******************
+     Query Parameter autor_name, pagination and sorting
+     2 page 9 elements
+     sort=updated **
+     order=desc (descending order)
+
+     1-Verify Status code
+     2-Verify Status Line
+     3-Verify Name
+     4-Verify id
+
+      *** TC006 ******************
+       Query Parameter autor_name, pagination and sorting
+       2 page 9 elements
+       sort=updated **
+       order=asc  (ascending order)
+
+       1-Verify Status code
+       2-Verify Status Line
+       3-Verify Name
+       4-Verify id
+
+       *** TC008 ******************
+        Query Parameter autor_name, pagination and sorting
+        2 page 10 elements
+        sort=help-wanted-issues **
+        order=desc (descending order)
+
+        1-Verify Status code
+        2-Verify Status Line
+        3-Verify Name
+        4-Verify id
+
+         *** TC008 ******************
+          Query Parameter autor_name, pagination and sorting
+          2 page 10 elements
+          sort=help-wanted-issues **
+          order=asc  (ascending order)
+
+          1-Verify Status code
+          2-Verify Status Line
+          3-Verify Name
+          4-Verify id
+
+          also wecan verify lots of data through response like
+node_id:
+full_name:
+private:
+owner:
+avatar_url:   ...etc
+
+Test-Output is for html reports
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/user/Desktop/TestNG_FRAMEWORK/src/test/java/githubTests">
+        <classes>
+            <class name="githubTests.TC001"></class>
+            <class name="githubTests.TC002"></class>
+            <class name="githubTests.TC003"></class>
+            <class name="githubTests.TC004"></class>
+            <class name="githubTests.TC005"></class>
+            <class name="githubTests.TC006"></class>
+            <class name="githubTests.TC007"></class>
+            <class name="githubTests.TC008"></class>
+        </classes>
+    </test>
+</suite>
